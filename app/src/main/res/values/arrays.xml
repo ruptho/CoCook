@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unit_shortname">
+        <item>g</item>
+        <item>dg</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>dl</item>
+        <item>l</item>
+        <item>#</item>
+        <item>cup</item>
+        <item>oz</item>
+        <item>lb</item>
+    </string-array>
+
+    <string-array name="unit_name">
+        <item>gram</item>
+        <item>decagram</item>
+        <item>kilogram</item>
+        <item>milliliter</item>
+        <item>deciliter</item>
+        <item>liter</item>
+        <item>piece</item>
+        <item>cup</item>
+        <item>ounce</item>
+        <item>pound</item>
+    </string-array>
+
+<!--
+1 pound pizza dough, store-bought or homemade
+1/2 to 1 cup sauce: tomato sauce, white sauce, or other spread
+2 to 3 cups other toppings: sautéed onions, sautéed mushrooms, pepperoni, cooked sausage, cooked bacon, diced peppers, leftover veggies, or any other favorite toppings
+1 to 2 cups (8 to 16 ounces) cheese, shredded or sliced: mozzarella, Monterey Jack, provolone, fontina, or any other favorite.
+Cornmeal or flour (optional)
+-->
+    <string-array name="ingredients">
+        <item>egg</item>
+        <item>ham</item>
+        <item>white bread</item>
+        <item>bread</item>
+        <item>pork fillet</item>
+        <item>pork chops</item>
+        <item>beef</item>
+        <item>celery</item>
+        <item>apple</item>
+        <item>fish</item>
+        <item>flour</item>
+        <item>black pepper</item>
+        <item>white pepper</item>
+        <item>breadcrumbs</item>
+        <item>salt</item>
+        <item>pizza dough</item>
+        <item>tomato sauce</item>
+        <item>cheese</item>
+        <item>potato</item>
+        <item>italian dressing</item>
+        <item>bacon</item>
+        <item>pepper</item>
+    </string-array>
+
+
+    <string-array name="load_msg_array">
+        <item>@string/load_apple</item>
+        <item>@string/load_banana</item>
+        <item>@string/load_bread</item>
+        <item>@string/load_broccoli</item>
+        <item>@string/load_egg</item>
+        <item>@string/load_fish</item>
+        <item>@string/load_kiwi</item>
+        <item>@string/load_mushrooms</item>
+        <item>@string/load_pepper</item>
+        <item>@string/load_plate</item>
+    </string-array>
+
+    <!--
+    4 boneless pork chops
+    salt and freshly ground black pepper
+    ½ cup all-purpose flour combined with 1 teaspoon salt
+    2 large eggs, lightly beaten
+    ¾ cup plain breadcrumbs
+    -->
+    <string-array name="steps_schnitzel">
+        <item>The first key to achieving the perfect Schnitzel is to pound it very thin, no more than 1/4 inch thick.  The reason this is important is because you’ll need to fry it at high heat for a short period of time to get that perfect crispy crust without leaving the middle of the meat raw.
+        The easiest way to pound the pork chops is to lay them between two pieces of plastic wrap.  Be sure to pound them using the flat side of a meat mallet.</item>
+        <item>Lightly sprinkle each side with salt and pepper.</item>
+        <item>Have all of the "dipping bowls" laid out at the same time so you can move from one to the other quickly.  Lay out two plates and a shallow bowl:  Fill with flour/salt, lightly beaten eggs, and plain breadcrumbs (not panko).</item>
+        <item>Dip the pork into the flour, coating all sides.</item>
+        <item>Next dip the pork into the egg mixture, coating all sides.</item>
+        <item>Then coat the pork with the breadcrumbs.   The next key to achieving the perfect Schnitzel:  Don’t press the breadcrumbs into the meat. Just softly coat the pork on both sides and all edges, and then gently shake off any excess.</item>
+        <item>The next key is to immediately fry the Schnitzels.  Don’t let them sit in coating or the end result won’t be as crispy.  You don’t need a ton of oil, but you need enough so that the Schnitzels can "swim".</item>
+        <item>The final key is to make sure the oil is hot enough – but not too hot.  It should be around 330ºF – test it with a candy thermometer.  If it’s too hot, the crust will burn before the meat is done.  If it isn’t hot enough, you’ll end up with a soggy coating.  When the oil is hot enough it will  actually penetrate the coating less and you’ll end up with a crispy “dry” coating instead of an overly oily one.   The result will be a beautifully crispy coating with a tender and juicy interior, and that’s exactly what we want.</item>
+        <item>Remove the Schnitzel from the fry pan and place them briefly on a plate lined with paper towels.  Transfer them to serving plates and garnish with slices of lemon and fresh parsley sprigs.  Serve immediately with Spaetzle, French fries, or German potato salad and a fresh leafy green salad.</item>
+    </string-array>
+
+    <string-array name="ing_schnitzel">
+        <item>pork chops</item>
+        <item>black pepper</item>
+        <item>salt</item>
+        <item>flour</item>
+        <item>egg</item>
+        <item>breadcrumbs</item>
+    </string-array>
+
+    <integer-array name="amounts_schnitzel">
+        <item>4</item>
+        <item>2</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="units_schnitzel">
+        <item>#</item>
+        <item>oz</item>
+        <item>oz</item>
+        <item>cup</item>
+        <item>#</item>
+        <item>cup</item>
+    </string-array>
+
+    <string-array name="steps_toast">
+        <item>Take bread, ham and cheese out of fridge.</item>
+        <item>Put cheese on bread.</item>
+        <item>Put the cheese-and-ham sandwich into your toaster.</item>
+        <item>Wait 20 minutes and you are golden.</item>
+    </string-array>
+
+    <string-array name="ing_toast">
+        <item>ham</item>
+        <item>cheese</item>
+        <item>white bread</item>
+    </string-array>
+
+    <integer-array name="amounts_toast">
+        <item>10</item>
+        <item>2</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="units_toast">
+        <item>dg</item>
+        <item>#</item>
+        <item>#</item>
+    </string-array>
+
+    <string-array name="steps_fish_chips">
+        <item>Put the butter in a pan with the peas and the chopped mint. Put a lid on top and simmer for about 10 minutes. Add a squeeze of lemon juice and season with salt and pepper.</item>
+        <item>Pour the sunflower oil into your deep fat fryer or a large frying pan and heat it to 190ºC/375ºF. Mix the salt and pepper together and season the fish fillets on both sides. This will help to remove any excess water, making the fish really meaty. Whisk the flour, beer and baking powder together until nice and shiny.</item>
+        <item>Dust each fish fillet in a little of the extra flour, then dip into the batter and allow any excess to drip off. Holding one end, lower the fish into the oil one by one, carefully so you don\'t get splashed – it will depend on the size of your fryer how many fish you can do at once. Cook for 4 minutes or so, until the batter is golden and crisp.</item>
+        <item>Meanwhile, parboil your chips in salted boiling water for about 4 or 5 minutes until softened but still retaining their shape, then drain them in a colander and leave to steam completely dry. When all the moisture has disappeared, fry them in the oil that the fish were cooked in at 180ºC/350ºF until golden and crisp. While the chips are frying, you can place the fish on a baking tray and put them in the oven for a few minutes at 180C/350F/gas 4 to finish cooking.</item>
+        <item> When they are done, drain them on kitchen paper, season with salt, and serve with the fish and mushy peas.</item>
+    </string-array>
+
+    <string-array name="ing_fish">
+        <item>fish</item>
+        <item>potato</item>
+        <item>salt</item>
+        <item>flour</item>
+        <item>egg</item>
+    </string-array>
+
+    <integer-array name="amounts_fish">
+        <item>1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>20</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="units_fish">
+        <item>#</item>
+        <item>#</item>
+        <item>oz</item>
+        <item>dg</item>
+        <item>#</item>
+    </string-array>
+
+
+    <!--1 pound pizza dough, store-bought or homemade
+    1/2 to 1 cup sauce: tomato sauce, white sauce, or other spread
+    2 to 3 cups other toppings: sautéed onions, sautéed mushrooms, pepperoni, cooked sausage, cooked bacon, diced peppers, leftover veggies, or any other favorite toppings
+    1 to 2 cups (8 to 16 ounces) cheese, shredded or sliced: mozzarella, Monterey Jack, provolone, fontina, or any other favorite.
+    Cornmeal or flour (optional)
+    -->
+    <string-array name="steps_pizza">
+        <item>Heat the oven to 550°F or higher: Don\'t be afraid to really crank the heat up to its highest setting. The high heat will help make a crunchier and more flavorful crust. Let the oven heat for at least half an hour before baking your pizzas. If you have a baking stone, place it in the lower-middle of your oven.</item>
+        <item>Divide the dough in half: One pound of dough makes two 10-inch pizzas. Slice the dough in half and cover one half with an upside-down bowl or a clean kitchen towel while you prepare the first pizza.</item>
+        <item> Roll out the dough: Tear off a large piece of parchment paper roughly 12 inches wide. Working with one piece of the dough at a time, form it into a large disk with your hands and lay it on the parchment paper. Use your hands or a rolling pin to flatten the dough until it is 1/4-inch thick or less. If the dough starts to shrink back, let it rest for 5 minutes and then continue rolling. </item>
+        <item>Top the pizza: Spoon a few tablespoons of sauce into the center of the pizza and use the back of a spoon to spread it out to the edges. Pile on all of your toppings. </item>
+        <item>Bake the pizza: Using a pizza peel or the back side of a baking sheet, slide your pizza (with the parchment or with the cornmeal) onto the baking stone. If you don\'t have a baking stone, bake the pizza right on the baking sheet. Cook for 5 minutes, then rotate the pizza. Slide the parchment out from under the pizza, if used. Bake for another 3 to 5 minutes, until the crust is golden-brown and the cheese looks toasty.</item>
+        <item> Slice and serve: Let the pizza cool slightly on a cooling rack, just until you\'re able to handle it. Slice it into pieces and serve.</item>
+    </string-array>
+
+    <string-array name="ing_pizza">
+        <item>pizza dough</item>
+        <item>tomato sauce</item>
+        <item>black pepper</item>
+        <item>salt</item>
+        <item>flour</item>
+        <item>ham</item>
+        <item>cheese</item>
+    </string-array>
+
+    <integer-array name="amounts_pizza">
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+        <item>50</item>
+        <item>20</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="units_pizza">
+        <item>lb</item>
+        <item>cup</item>
+        <item>oz</item>
+        <item>oz</item>
+        <item>g</item>
+        <item>dg</item>
+        <item>cup</item>
+    </string-array>
+
+<!--
+    4 (6 ounce) filet mignon steaks
+    1 (16 ounce) bottle Italian dressing
+    1 (8 ounce) package cream cheese
+
+    1/4 cup minced jalapeno pepper
+    20 slices thinly sliced bacon
+
+-->
+    <string-array name="steps_steak">
+        <item>Slice the steaks into 1/2-inch wide strips. Pound the strips to about half their original thickness. Place the steak in a bowl; pour the Italian dressing over the meat; allow to marinate at least 2 hours.</item>
+        <item>Mix together the cream cheese and jalapeno pepper in a bowl; set aside. Remove the strips from the marinade and lay out on a flat surface. Spread about 1 teaspoon of the cream cheese mixture on each strip.</item>
+        <item>Preheat an outdoor grill for high heat and lightly oil grate.</item>
+        <item>Remove the strips from the marinade and lay on a flat surface. Spread about 1 teaspoon of the cream cheese mixture on each strip. Fold the meat around the cream cheese mixture to form a ball. Wrap each ball with a slice of bacon. Secure bacon with water-soaked toothpicks or metal skewers.</item>
+        <item>Cook on preheated grill until steak is no longer pink, about 4 minutes per side.</item>
+    </string-array>
+
+
+    <string-array name="ing_steak">
+        <item>pork fillet</item>
+        <item>italian dressing</item>
+        <item>cheese</item>
+        <item>pepper</item>
+        <item>bacon</item>
+    </string-array>
+
+    <integer-array name="amounts_steak">
+        <item>6</item>
+        <item>16</item>
+        <item>8</item>
+        <item>1</item>
+        <item>20</item>
+    </integer-array>
+
+    <string-array name="units_steak">
+        <item>oz</item>
+        <item>oz</item>
+        <item>oz</item>
+        <item>cup</item>
+        <item>dg</item>
+    </string-array>
+</resources>

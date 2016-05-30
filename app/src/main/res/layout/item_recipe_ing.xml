@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:focusable="false">
+
+    <TextView
+        android:id="@+id/tvIngredient"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="7"
+        android:ellipsize="end"
+        android:gravity="center_vertical|left"
+        android:lines="1"
+        android:text="recipe"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical|right"
+        android:text="500000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tvUnit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical|left"
+        android:text="kg"
+        android:textSize="18sp" />
+</LinearLayout>

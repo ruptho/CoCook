@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">CoCook</string>
+    <string name="main_your_fridge">Your fridge</string>
+    <string name="main_dos_donts"><![CDATA[Dos & Dont\'s]]></string>
+    <string name="main_history">Meal history</string>
+    <string name="main_cook">Let\'s Cook</string>
+    <string name="main_settings">Settings</string>
+    <string name="main_about">About</string>
+    <string name="main_header">CoCook</string>
+    <string name="menu_dos_donts_add_dont">Add Don\'t</string>
+    <string name="menu_dos_donts_add_do">Add Do</string>
+    <string name="dos_donts_delete_question">Delete preference?</string>
+    <string name="dos_donts_delete_answer">Delete</string>
+    <string name="dos_donts_add">Add</string>
+    <string name="dos_donts_cancel">Cancel</string>
+    <string name="dos_donts_create">New</string>
+    <string name="dos_donts_dismiss">Dismiss</string>
+    <string name="dos_donts_ing_added">Ingredient added</string>
+    <string name="dos_donts_ing_existing">Ingredient already existing</string>
+    <string name="dos_donts_delete_ing_question">Delete Ingredient?</string>
+    <string name="do_dont_intro">This screen lets you modify your preferences and order them by priority.\nLet CoCook know which
+        ingredients you do or don\'t like!</string>
+    <string name="dos_donts_okay">Okay</string>
+    <string name="title_activity_fridge">Your Fridge</string>
+    <string name="fridge_intro">This is the screen for tracking the ingredients you currently have available.</string>
+    <string name="fridge_delete_question">Delete ingredients from fridge?</string>
+    <string name="add_fridge_amount">Amount</string>
+    <string name="title_activity_add_to_fridge">Add Ingredient to Fridge</string>
+    <string name="add_to_fridge_ingredient">Ingredient (Choose from list)</string>
+    <string name="dlg_new_ing_title">New Ingredient</string>
+    <string name="dlg_new_ing_question">The ingredient \"%s\" you entered is not existing in the database. Do you want to add it?</string>
+    <string name="add_to_fridge_ing_empty">Enter an ingredient.</string>
+    <string name="add_to_fridge_amount_empty">Enter an amount.</string>
+    <string name="title_activity_sugg_recipes">Suggested Recipes</string>
+    <string name="recipe_easy">easy</string>
+    <string name="recipe_medium">medium</string>
+    <string name="recipe_hard">hard</string>
+    <string name="recipes_ascending">ascending</string>
+    <string name="recipes_descending">descending</string>
+    <string name="recipes_name">name</string>
+    <string name="recipes_difficulty">difficulty</string>
+    <string name="recipes_time">time</string>
+    <string name="recipe_header">Ingredients</string>
+    <string name="recipe_description">Description</string>
+    <string name="recipe_no_description">For the given recipe is no detailed description available.</string>
+    <string name="app_description">Your simple cooking assistant.</string>
+
+    <string name="load_bread">Baking bread</string>
+    <string name="load_banana">Peeling bananas</string>
+    <string name="load_apple">Picking apples</string>
+    <string name="load_fish">Catching fish</string>
+    <string name="load_broccoli">Harvesting broccoli</string>
+    <string name="load_plate">Cleaning plate</string>
+    <string name="load_egg">Collecting eggs</string>
+    <string name="load_pepper">Breeding peppers</string>
+    <string name="load_mushrooms">Growing mushrooms</string>
+    <string name="load_kiwi">Importing kiwis</string>
+    <string name="title_activity_cook_step">CookStepActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_next">next</string>
+    <string name="recipe_overview">Overview</string>
+    <string name="cook_step_disable_hand">Disable Hand Gestures</string>
+    <string name="cook_step_enable_hand">Enable Hand Gestures</string>
+    <string name="step_header">%1$d/%2$d - %3$s</string>
+    <string name="camera_listener_no_open_cv">OpenCV was not installed. Unfortunately you can\'t use the hand gesture feature.</string>
+    <string name="camera_listener_no_permissions">Permissions were not granted. Unfortunately you can\'t use the hand gesture feature.</string>
+    <string name="camera_listener_phone_moved">It seems you moved your phone. Hand gesture mode has been disabled.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+        no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
+    <string name="cook_step_finished">Congratulations, you have finished all steps.\n\nEnjoy your meal!</string>
+    <string name="dos_donts_empty_ing">Ingredient name empty, can\'t be added.</string>
+    <string name="dlg_remove_from_fridge_title">Remove Ingredients</string>
+    <string name="dlg_remove_from_fridge_question">Do you want to automatically remove the used ingredients from your fridge?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+</resources>

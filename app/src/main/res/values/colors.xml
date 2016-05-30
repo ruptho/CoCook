@@ -1,0 +1,15 @@
+<resources>
+    <color name="black_overlay">#66000000</color>
+    <color name="main_back">#FFFFFF</color>
+    <color name="bt_color">#66000000</color>
+    <color name="bt_focused_color">#C4C4C4</color>
+    <color name="bt_pressed_color">#C4C4C4</color>
+    <color name="bt_disabled">#C4C4C4</color>
+    <color name="font_color">#FFFFFF</color>
+    <color name="button_x">#000000</color>
+    <color name="level_background">#ffff8d</color>
+    <color name="header_font_color">#000000</color>
+    <color name="pb_color_start">#00000000</color> <!--  -->
+    <color name="pb_color_center">#80000000</color>
+    <color name="pb_color_end">#ff000000</color>
+</resources>

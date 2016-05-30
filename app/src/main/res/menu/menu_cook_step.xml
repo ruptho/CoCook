@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".letscook.cook.CookStepActivity"
+    android:id="@+id/menu_steps">
+    <item
+        android:id="@+id/action_next"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_arrow_forward_white_24dp"
+        android:title="@string/action_next"
+        app:showAsAction="always"
+        android:visible="true"/>
+    <item
+        android:id="@+id/action_finish"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_restaurant_white_24dp"
+        android:title="@string/action_next"
+        app:showAsAction="always"
+        android:visible="false"/>
+</menu>

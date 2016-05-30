@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add_do"
+        android:title="@string/menu_dos_donts_add_do"
+        app:showAsAction="never"/>
+    <item android:id="@+id/add_dont"
+        android:title="@string/menu_dos_donts_add_dont"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/tvHeader"
+            android:textSize="25dp"
+            android:text="@string/menu_dos_donts_add_do"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/primary_text_dark"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <!-- Pretty hint text, and maxLines -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeader"
+        android:id="@+id/search_layout"
+        android:orientation="horizontal">
+        <EditText android:id="@+id/search_box"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="type to filter"
+            android:inputType="text"
+            android:maxLines="1"
+            android:focusable="true"/>
+        <ImageButton
+            android:id="@+id/btNewIng"
+            android:src="@drawable/ic_add_black_24dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+        <!-- Set height to 0, and let the weight param expand it -->
+        <!-- Note the use of the default ID! This lets us use a
+             ListActivity still! -->
+        <ListView android:id="@+id/listIng"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/search_layout"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"/>
+</RelativeLayout>
