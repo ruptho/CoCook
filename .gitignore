@@ -42,3 +42,4 @@ proguard/
 captures/
 
 openCVLibrary310/
+app/src/main/jniLibs
