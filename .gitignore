@@ -44,3 +44,4 @@ captures/
 openCVLibrary310/
 app/src/main/jniLibs
 app/src/main/jniLibs/*
+.idea/vcs.xml
