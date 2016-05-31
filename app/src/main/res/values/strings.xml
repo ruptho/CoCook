@@ -77,4 +77,6 @@
     <string name="dlg_remove_from_fridge_question">Do you want to automatically remove the used ingredients from your fridge?</string>
     <string name="no">No</string>
     <string name="yes">Yes</string>
+    <string name="about_text">This app has been developed by Thorsten Ruprechter in course of the
+        university lecture \'Sensors and User Models\' at the TU Graz.\n\nThe used icons have been taken from the Android Material design guideline and are available under the CC-BY license.</string>
 </resources>

@@ -2,11 +2,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rup.tho.cocook">
 
-    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
-    <uses-feature android:name="android.hardware.camera" android:required="false"/>
-    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
-    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
-    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -52,9 +61,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".letscook.recipe.RecipeActivity"
+            android:launchMode="singleTop"
             android:parentActivityName=".letscook.recipe.SuggestedRecipesActivity"
-            android:screenOrientation="portrait"
-            android:launchMode="singleTop"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SplashActivity"
             android:label="@string/app_name"
@@ -69,12 +78,13 @@
             android:name=".letscook.cook.CookStepActivity"
             android:label="@string/title_activity_cook_step"
             android:parentActivityName=".letscook.recipe.RecipeActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="rup.tho.cocook.letscook.recipe.RecipeActivity" />
         </activity>
+        <activity android:name=".about.AboutActivity"></activity>
     </application>
 
 </manifest>
